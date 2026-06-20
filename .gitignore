@@ -56,7 +56,8 @@ replay_pid*
 **/target/
 .gradle/
 # don't ignore any gradle wrapper files
-!gradle/
+#!gradle/
+!gradle/wrapper/gradle-wrapper.jar
 
 
 # Packages #
@@ -67,3 +68,5 @@ replay_pid*
 *.zip
 *.tgz
 *.tar.gz
+
+/lecturenotes
